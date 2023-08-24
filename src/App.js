@@ -7,12 +7,11 @@ import Checkout from "./routes/checkout/checkout"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useContext, useEffect } from 'react';
-import { Context } from "./context/Context"
+
 
 
 function App() {
 
-  const {user} = useContext(Context);
 
   useEffect(() => {
     AOS.init({
