@@ -6,7 +6,7 @@ import Checkout from "./routes/checkout/checkout"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useContext, useEffect } from 'react';
+import { useEffect } from 'react';
 
 
 
