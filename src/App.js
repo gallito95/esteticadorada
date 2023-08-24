@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./routes/home/home"
+import {Routes,Route} from "react-router-dom"
+import Navigation from "./routes/navigation/Navbar"
+import Calculator from "./routes/calculator/calorieCalculator"
+import Checkout from "./routes/checkout/checkout"
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useContext, useEffect } from 'react';
+import { Context } from "./context/Context"
+
 
 function App() {
+
+  const {user} = useContext(Context);
+
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+    <Route path="/" element={<Navigation/>}>   
+    <Route index element={<Home/> }/>
+    <Route path="calorie-calculator" element={<Calculator/>}/>
+    <Route path="checkout" element={<Checkout/>}/>
+        </Route>
+ 
+    
+  </Routes>
   );
 }
 
