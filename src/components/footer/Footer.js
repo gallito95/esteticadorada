@@ -3,6 +3,7 @@ import Logo from '../../Icons/logo.png'
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import "./footer.styles.scss";
 
 const Footer = () => {
   return (
@@ -20,8 +21,8 @@ const Footer = () => {
       </section>
       <section className="collapsible footer__section">
         <div className="collapsible__header">
-          <h2 className="collapsible__heading footer__heading">Contacto :</h2>
-          <div>
+          <h2 className="collapsible__heading footer__heading">Contacto </h2>
+          <div className= "footer__contact">
           <p> <FontAwesomeIcon icon={faEnvelope} /> stefan.sauer95@gmx.de </p>
           <p>  <FontAwesomeIcon icon={faWhatsapp} /> +1809 624 9027</p>
         </div>

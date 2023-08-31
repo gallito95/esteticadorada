@@ -42,7 +42,7 @@ useEffect(() => {
                 </svg>
               </div>
               <div className="media__body">
-                <h3 className="media__title">4 años de experiencia como entrenador en deportes amateurs y profesionales</h3>
+                <h3 className="media__title">4 años de experiencia como entrenador en deportes aficionados y profesionales</h3>
                 
               </div>
             </div>

@@ -63,11 +63,11 @@ const CalorieCalculator = () => {
       value={age} onChange={handleAgeChange}/>
     </div>
     <div className="box c">
-      <h3 className="title">Altura (en Cm)</h3>
+      <h3 className="title">Altura</h3>
       <input className= "input__box" type="number" name="size"  min="100" max="240" required="required" value={height} onChange={handleHeightChange}/>
     </div>
     <div className="box d">
-      <h3 className="title">Peso (en Kg)</h3>
+      <h3 className="title">Peso (Kg)</h3>
       <input className= "input__box" type="number" name="weight"  min="10" max="200" required="required" value={weight} onChange={handleWeightChange}/>
     </div>
     <div className="box e">
@@ -102,7 +102,7 @@ const CalorieCalculator = () => {
       </span>
       <span className="optionSpecial">
         <input type="radio" name="activity" value="1.45" />
-        <label><span></span>  Trabajo sentado sin moverse.</label>
+        <label><span></span>Trabajo sentado sin moverse.</label>
       </span>
       <span className="optionSpecial">
         <input type="radio"  name="activity" value="1.65"/>

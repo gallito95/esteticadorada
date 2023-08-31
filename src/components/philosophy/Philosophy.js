@@ -29,7 +29,7 @@ const Philosophy = () => {
             {/* <a href="youtube.com" className="link-arrow">Saber más</a> */}
           </div>
           
-          <picture data-aos="zoom-in-left" data-aos-duration="2000">
+          <picture className='feature__picture' data-aos="zoom-in-left" data-aos-duration="2000">
             <source srcSet={LimitWEBP} type="image/webp" />
             <source srcSet={LimitJPG} type="image/jpg" />
             <img  src={LimitJPG} alt="Alt text" />
@@ -46,7 +46,7 @@ const Philosophy = () => {
             </p>
             {/* <a href="youtube.com" className="link-arrow">Saber más</a> */}
           </div>
-          <picture data-aos="zoom-in-left" data-aos-duration="2000">
+          <picture className='feature__picture' data-aos="zoom-in-left" data-aos-duration="2000">
             <source srcSet={NutritionWEBP} type="image/webp" />
             <source srcSet={NutritionJPG} type="image/jpg" />
             <img  src={NutritionJPG} alt="Alt text" />
@@ -62,7 +62,7 @@ const Philosophy = () => {
             </p>
             {/* <a href="youtube.com" className="link-arrow">Saber más</a> */}
           </div>
-          <picture data-aos="zoom-in-left" data-aos-duration="2000">
+          <picture className='feature__picture' data-aos="zoom-in-left" data-aos-duration="2000">
             <source srcSet={TrainingWEBP} type="image/webp" />
             <source srcSet={TrainingJPG} type="image/jpg" />
             <img  src={TrainingJPG} alt="Alt text" />
@@ -72,12 +72,12 @@ const Philosophy = () => {
           <div className="feature__content" data-aos="fade-left" data-aos-duration="2000">
           
             <h3 className="feature__heading" data-aos="zoom-in-up" data-aos-duration="1000">Transparencia </h3>
-            <p>
+            <p className= "feature__content">
             Nada de suplementos innecesarios, masajes u otros procedimientos que no cumplen lo que prometen. Todo lo que hacemos juntos tengo que poder explicárselo de forma que lo entienda. No hay promesas poco realistas para su transformación, sino que establecemos juntos objetivos realistas. La confianza es la base más importante para el éxito de la cooperación.
             </p>
             {/* <a href="youtube.com" className="link-arrow">Saber más</a> */}
           </div>
-          <picture data-aos="zoom-in-left" data-aos-duration="2000">
+          <picture  className='feature__picture feature__picture-last' data-aos="zoom-in-left" data-aos-duration="2000">
            <source srcSet={SuppsWEBP} type="image/webp" />
            <source srcSet={SuppsJPG} type="image/jpg" />
            <img  src={SuppsJPG} alt="Alt text" />

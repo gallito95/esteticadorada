@@ -4,6 +4,7 @@ import Navigation from "./routes/navigation/Navbar"
 import Calculator from "./routes/calculator/calorieCalculator"
 import Checkout from "./routes/checkout/checkout"
 
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useContext, useEffect } from 'react';

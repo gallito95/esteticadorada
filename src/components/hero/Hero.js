@@ -8,7 +8,7 @@ const Hero = () => {
           <h1 data-aos="fade-right" data-aos-duration="2000" className="block__heading"> Tu Entrenador Personal en Linea</h1>
            
            
-          <h1 className="hero__tagline animate-character" data-aos="fade-left" data-aos-duration="2500">
+          <h1 className=" hero__tagline animate-character" data-aos="fade-left" data-aos-duration="2500">
             "Entrenamiento y nutrición basados en la ciencia para su éxito"
           </h1>
           {/* <button className="btn btn--accent btn--stretched btn--hero" > <a href="#servicios" className="btn__a" >Comienza!</a></button> */}

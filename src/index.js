@@ -2,17 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.scss';
+import './/components/footer/footer.styles.scss'
 import { BrowserRouter } from 'react-router-dom';
-import { ContextProvider } from './context/Context';
+'.//routes/navigation/navbar.styles.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ContextProvider>
     <BrowserRouter>   
     <App />   
     </BrowserRouter>
-    </ContextProvider>
   </React.StrictMode>
 );
 

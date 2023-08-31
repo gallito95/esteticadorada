@@ -16,7 +16,7 @@ const References = () => {
   const carList = [
     {
       id: 1,
-      name: "Alejandra Suero",
+      name: "Mercedes Suero",
       img:
         Women1,
       info: "Durante años intenté perder peso con diferentes métodos, pero no funcionó. Después de 6 meses de trabajar con Stefan, por fin estoy cerca a mi meta. No tuve que matarme de hambre como en algunas de las dietas anteriores. Muchas gracias.",
@@ -100,7 +100,7 @@ function previousPerson(){
             <blockquote className="quote">
             <p className="quote__text">{item.info}</p>
             <footer>
-                <div className="media">
+                <div className="media media__reference">
                   <div className="media__image">
                     <svg className="icon icon--primary quote__line">
                       <FontAwesomeIcon icon={faMinus}/>

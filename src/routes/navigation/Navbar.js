@@ -3,6 +3,7 @@ import React from 'react'
 import Logo from '../../Icons/logo.png'
 import { NavLink } from 'react-router-dom'
 import { SocialIcon } from 'react-social-icons'
+import './navbar.styles.scss'
 
 
 const Navbar = () => {
