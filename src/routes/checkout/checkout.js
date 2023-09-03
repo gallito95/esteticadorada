@@ -50,7 +50,7 @@ const Checkout = () => {
             <FontAwesomeIcon icon={faEnvelope} /> stefan.sauer95@gmx.de
           </p>
           <p>
-            <FontAwesomeIcon icon={faWhatsapp} /> +1809 624 9027
+            <FontAwesomeIcon icon={faWhatsapp} /> +1 809 624 9027
           </p>
         </div>
       </div>
