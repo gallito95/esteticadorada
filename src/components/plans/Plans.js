@@ -1,14 +1,11 @@
 import React from 'react'
 
 const Plans = () => {
-  function handleCheckout(planName, planPrice, planDescription){
+  function handleCheckout(planName, planPrice, planDescription) {
     const selectedPlans = JSON.parse(localStorage.getItem('selectedPlans') || '[]');
-    selectedPlans.push({name: planName, price:planPrice , description: planDescription});
-    localStorage.setItem('selectedPlans', JSON.stringify(selectedPlans))
-    const queryString = new URLSearchParams({
-      selectedPlans: JSON.stringify(selectedPlans),
-    }).toString();
-    window.location.href =`/checkout?${queryString}`
+    selectedPlans.push({ name: planName, price: planPrice, description: planDescription });
+    localStorage.setItem('selectedPlans', JSON.stringify(selectedPlans));
+    window.location.href = '/checkout'; // Redirect to the checkout page without query parameters
   }
   
   
@@ -44,7 +41,7 @@ const Plans = () => {
           <div className="card card--primary container-service">
             <header className="card__header">
               <h3 className="plan__name"> Coaching con todo incluido</h3>
-              <span className="plan__price">RD$ 3000</span>
+              <span className="plan__price">RD$ 5000</span>
               <span className="plan__billing-cycle">/mes</span>
               <span className="badge badge--primary badge--small">10% OFF</span>
               <span className="plan__description"> El paquete completo!</span>

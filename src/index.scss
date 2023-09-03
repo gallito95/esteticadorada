@@ -9,6 +9,8 @@
   --border-radius: 30px;
 }
 
+
+
 *,
 *::after,
 *::before {
@@ -23,6 +25,10 @@
 
 html {
   font-size: 62.5%;
+}
+
+html,body{
+  overflow-x: hidden;
 }
 
 img {
@@ -835,7 +841,6 @@ a {
 
 .block_filosofia{
   background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(31,30,22,1) 36%, rgba(3,32,3,1) 100%);
  border: 2px solid black;
 }
 .block--dark h1,
